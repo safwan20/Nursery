@@ -21,11 +21,17 @@ Created a website where owner and customer is users. Owner can see plant, add pl
 2. Ajax is also used.
 
 ### Steps to run
-
-1. Create a python3 virtual enviornment.
+1. Create a python3 virtual enviornment and activate it.
 2. Install the requirements via `pip install -r requirements.txt`.
-3. Run the **Flask** app using `python app.py`.
-4. Now that the server is running, you can make POST requests to the `/pick_color` endpoint.
+3. Move to nursery folder.
+4. Run `python manage.py makemigrations`.
+5. Run `python manage.py migrate`
+6. Run `python manage.py createsuperuser` then add credentials (this is used to access the database in '/admin' endpoint).
+4. Finally run `python manage.py runserver`.
 
 ### Deployment
 deployment can be done in pythonanywhere cloud server or Heroku server
+
+
+### sample video link
+https://drive.google.com/file/d/1i01vMjdZ2ffS4f7Sa2AGgamPXAvv4nXs/view?usp=sharing
