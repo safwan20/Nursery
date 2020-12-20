@@ -7,14 +7,14 @@ Create an online nursery marketplace API where users can signup, login, view, an
 Created a website where owner and customer is users. Owner can see plant, add plant, see their orders. Customer can buy plant.
 
 ### API's
-1. /register : customer and owner can signup.
-2. /login :  customer and owner can login.
-3. /logout : simple logout.
-4. /add_plant : nursery owner can add plants.
-5. /see_plant : nursery owner can see their added plants.
-6. /see_order : nursery owner can see thier orders.
-7. /place_order : customer can place order.
-8. / : list all plants.
+1. `/register` : customer and owner can signup.
+2. `/login `:  customer and owner can login.
+3. `/logout` : simple logout.
+4. `/add_plant` : nursery owner can add plants.
+5. `/see_plant` : nursery owner can see their added plants.
+6. `/see_order` : nursery owner can see thier orders.
+7. `/place_order` : customer can place order.
+8. `/` : list all plants.
 
 ### Technical Stack used
 1. Used Django framework ( all models are there in model.py , all views are there in view folder)
